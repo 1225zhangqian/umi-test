@@ -107,4 +107,5 @@ export interface WdCodeEditorProps {
   placeholder?: string;
   maxLength?: number;
   value?: string;
+  children?: React.ReactNode;
 }

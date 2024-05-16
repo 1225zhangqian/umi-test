@@ -1,15 +1,17 @@
 import styles from './index.less';
 import { WdTable, WdButton, RichText } from '@cloudbase/weda-ui';
 import { WdCodeEditor } from './codeEditor';
-import { useState } from 'react';
+import App from './react-codemirror';
 export default function IndexPage() {
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
       <WdCodeEditor />
-      <WdButton />
+      <App />
+
+      {/* <WdButton />
       <WdTable />
-      <RichText />
+      <RichText /> */}
     </div>
   );
 }

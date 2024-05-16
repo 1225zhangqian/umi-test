@@ -22,8 +22,11 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@cloudbase/weda-ui": "^3.6.0",
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@uiw/react-codemirror": "^4.22.0",
     "@umijs/plugin-sass": "^1.1.1",
     "babel-plugin-import": "^1.13.6",
+    "codemirror": "^6.0.1",
     "mobx": "^6.10.0",
     "react": "17.x",
     "react-dom": "17.x",
